@@ -1,16 +1,35 @@
-# React + Vite
+# MoodSync
+An AI-powered mood-based movie and song recommendation chatbot.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+ [moodsync-frontend.vercel.app](https://moodsync-frontend-10v2rlri8-adinotnices-projects.vercel.app)
+## Features
+- AI conversation to detect your mood
+- Movie recommendations via OMDb API
+- Song recommendations via Spotify API
+- Session history (last 3 chats saved)
+- Emoji and word-based mood expression
 
-Currently, two official plugins are available:
+## Tech Stack
+- Frontend: React.js, Vite
+- Backend: Node.js, Express
+- Database: MongoDB Atlas
+- AI: Google Gemini API
+- APIs: Spotify, OMDb
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Team
+- Aditya Singh Chouhan
+- Avisha Jain
+- Pratham Dassani
 
-## React Compiler
+## Setup Instructions
+### Frontend
+cd moodsync-frontend
+npm install
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+cd moodsync-backend
+npm install
+# Create .env file with your keys
+npm run dev
